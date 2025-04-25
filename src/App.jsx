@@ -1,12 +1,9 @@
 import "./App.css";
-import Button from "./components/Button";
-import ToDoList2 from "./components/ToDoList2";
-import LightDarkTheme from "./components/LightDarkTheme";
-import StopWatch from "./components/stopwatch";
+import Game2048 from "./components/Game2048";
 function App() {
   return (
     <>
-      <StopWatch />
+      <Game2048 />
     </>
   );
 }
